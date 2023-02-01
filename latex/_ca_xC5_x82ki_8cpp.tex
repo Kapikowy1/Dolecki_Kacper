@@ -1,0 +1,69 @@
+\hypertarget{_ca_xC5_x82ki_8cpp}{}\doxysection{C\+:/\+Users/\+S106/\+Desktop/kolosrepo/\+Dolecki\+\_\+\+Kacper/\+Całki.cpp File Reference}
+\label{_ca_xC5_x82ki_8cpp}\index{C:/Users/S106/Desktop/kolosrepo/Dolecki\_Kacper/Całki.cpp@{C:/Users/S106/Desktop/kolosrepo/Dolecki\_Kacper/Całki.cpp}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{_ca_xC5_x82ki_8cpp_a1c2dbde1ba7d93e381d4ccb9f603be16}{function}} (double x)
+\begin{DoxyCompactList}\small\item\em Funkcja do zintegrowania Funkcja opisuje zachowanie funkcji, którą chcemy zintegrować. W tym programie zaimplementowano funkcję kwadratową. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{_ca_xC5_x82ki_8cpp_adb5052cf894bb645d33b21d2665f0ecb}{integrate}} (double a, double b, int n)
+\begin{DoxyCompactList}\small\item\em Funkcja obliczająca całkę za pomocą metody prostokątów Funkcja bierze jako argumenty początek i koniec przedziału całkowania oraz liczbę prostokątów i zwraca wynik całkowania. W obliczeniach używana jest funkcja \mbox{\hyperlink{_ca_xC5_x82ki_8cpp_a1c2dbde1ba7d93e381d4ccb9f603be16}{function}}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_ca_xC5_x82ki_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja główna Funkcja wczytuje od użytkownika początek i koniec przedziału całkowania oraz liczbę prostokątów. Następnie wywołuje funkcję \mbox{\hyperlink{_ca_xC5_x82ki_8cpp_adb5052cf894bb645d33b21d2665f0ecb}{integrate}} i wypisuje wynik całkowania na standardowe wyjście. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_ca_xC5_x82ki_8cpp_a1c2dbde1ba7d93e381d4ccb9f603be16}\label{_ca_xC5_x82ki_8cpp_a1c2dbde1ba7d93e381d4ccb9f603be16}} 
+\index{Całki.cpp@{Całki.cpp}!function@{function}}
+\index{function@{function}!Całki.cpp@{Całki.cpp}}
+\doxysubsubsection{\texorpdfstring{function()}{function()}}
+{\footnotesize\ttfamily double function (\begin{DoxyParamCaption}\item[{double}]{x }\end{DoxyParamCaption})}
+
+
+
+Funkcja do zintegrowania Funkcja opisuje zachowanie funkcji, którą chcemy zintegrować. W tym programie zaimplementowano funkcję kwadratową. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Argument funkcji \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wartość funkcji dla argumentu x 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_ca_xC5_x82ki_8cpp_adb5052cf894bb645d33b21d2665f0ecb}\label{_ca_xC5_x82ki_8cpp_adb5052cf894bb645d33b21d2665f0ecb}} 
+\index{Całki.cpp@{Całki.cpp}!integrate@{integrate}}
+\index{integrate@{integrate}!Całki.cpp@{Całki.cpp}}
+\doxysubsubsection{\texorpdfstring{integrate()}{integrate()}}
+{\footnotesize\ttfamily double integrate (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b,  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Funkcja obliczająca całkę za pomocą metody prostokątów Funkcja bierze jako argumenty początek i koniec przedziału całkowania oraz liczbę prostokątów i zwraca wynik całkowania. W obliczeniach używana jest funkcja \mbox{\hyperlink{_ca_xC5_x82ki_8cpp_a1c2dbde1ba7d93e381d4ccb9f603be16}{function}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Początek przedziału całkowania \\
+\hline
+{\em b} & Koniec przedziału całkowania \\
+\hline
+{\em n} & Liczba prostokątów \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wynik całkowania 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_ca_xC5_x82ki_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{_ca_xC5_x82ki_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}} 
+\index{Całki.cpp@{Całki.cpp}!main@{main}}
+\index{main@{main}!Całki.cpp@{Całki.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Funkcja główna Funkcja wczytuje od użytkownika początek i koniec przedziału całkowania oraz liczbę prostokątów. Następnie wywołuje funkcję \mbox{\hyperlink{_ca_xC5_x82ki_8cpp_adb5052cf894bb645d33b21d2665f0ecb}{integrate}} i wypisuje wynik całkowania na standardowe wyjście. 
+
+\begin{DoxyReturn}{Returns}
+Zawsze zwraca 0 
+\end{DoxyReturn}
